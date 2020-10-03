@@ -1,6 +1,11 @@
-import 'package:HelloWord/base.dart';
+import 'package:HelloWord/app/pages/moduleBase/module_base_module.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 
 void main() {
-  runApp(Base());
+  runApp(
+    ModularApp(
+      module: ModuleBaseModule(),
+    ),
+  );
 }

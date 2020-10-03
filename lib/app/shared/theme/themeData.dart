@@ -1,12 +1,8 @@
-
 import 'package:flutter/material.dart';
 
-import 'font_family.dart';
-
 class ThemeDataMentor {
-
   ThemeData themeData = new ThemeData(
-    fontFamily: FontFamily.segoeUi,
+    //fontFamily: FontFamily.segoeUi,
     brightness: Brightness.light,
     //primaryColor: Color(0xFF12420b),
     primaryColor: Color(0xFF0B1C43),
@@ -18,7 +14,7 @@ class ThemeDataMentor {
   );
 
   ThemeData themeDataDark = new ThemeData(
-    fontFamily: FontFamily.segoeUi,
+    //fontFamily: FontFamily.segoeUi,
     brightness: Brightness.dark,
     primaryColor: Color(0xFF0B1C43),
     primaryColorBrightness: Brightness.dark,
